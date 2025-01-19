@@ -1,0 +1,21 @@
+:root {
+    --brand-color: #95E1D3;
+}
+.header {
+    color: var(--brand-color);
+}
+button {
+    background-color: var(--brand-color);
+}
+.footer {
+    color: ;
+}
+p, input {
+    color: #B6B6B6;
+}
+h2, h3, .headline, .footer{
+    color: #333333;
+}
+.link_footer {
+    color: #F38181;
+}

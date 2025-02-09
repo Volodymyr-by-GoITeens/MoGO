@@ -1,21 +1,19 @@
 :root {
     --brand-color: #95E1D3;
 }
-.header {
+header > a, nav ul li a {
     color: var(--brand-color);
 }
 button {
     background-color: var(--brand-color);
+    color: white;
 }
-.footer {
-    color: ;
-}
-p, input {
+p, input, h2 + p{
     color: #B6B6B6;
 }
-h2, h3, .headline, .footer{
+h2, h3, section > p:nth-child(-n+2){
     color: #333333;
 }
-.link_footer {
+p a {
     color: #F38181;
 }

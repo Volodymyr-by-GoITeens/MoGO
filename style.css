@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --brand-color: #95E1D3;
     --p-color: #B6B6B6;
     --button-color: white;
     --h2-and-h3-color: #333;
     --Laaqiq-color: #F38181;
+    --main-style: "Montserrat", serif;
+    --p-style: "Roboto", serif;
+    --before-h2-style: "Kaushan Script", serif;
+}
+body {
+    font-family: var(--main-style);
 }
 header > a, nav ul li a {
     color: var(--brand-color);

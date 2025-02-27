@@ -3,18 +3,22 @@
     --brand-color: #95E1D3;
     --p-color: #B6B6B6;
     --button-color: white;
-    --h2-and-h3-color: #333;
-    --Laaqiq-color: #F38181;
+    --h2-color: #333;
+    --a-color: #F38181;
     --main-style: "Montserrat", serif;
     --p-style: "Roboto", serif;
-    --before-h2-style: "Kaushan Script", serif;
+    --post-title-style: "Kaushan Script", serif;
+    --h3-color: #333;
 }
 body {
     font-family: var(--main-style);
     width: 1600;
 }
-header > a, nav ul li a {
+a.logo, nav ul li a {
     color: var(--brand-color);
+}
+a.logo:hover, nav ul li a:hover {
+    color: var(--a-color);
 }
 button {
     background-color: var(--brand-color);
@@ -32,6 +36,10 @@ p a {
 div.container {
     width: 1170px:
 }
+p.subtitle, h2.title{
+    color: var(--h2-color);
+    text-align: center;
+}
 /*container*/
 div.container:nth-child(1) {
     margin-top: 0;
@@ -48,4 +56,24 @@ div.container:nth-child(3) {
 div.container:nth-child(4) {
     margin-top: 80px;
     margin-bottom: 0;
+}
+/*flex-box*/
+header.header div.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header.header div.container ul.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: default;
+}
+main.main section.services div.container ul.service-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+main.main section.team div.container ul.team-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

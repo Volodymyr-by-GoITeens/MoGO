@@ -5,9 +5,9 @@
     --button-color: white;
     --h2-color: #333;
     --a-color: #F38181;
-    --main-style: "Montserrat", serif;
-    --p-style: "Roboto", serif;
-    --post-title-style: "Kaushan Script", serif;
+    --main-font: "Montserrat", serif;
+    --p-font: "Roboto", serif;
+    --post_title-style: "Kaushan Script", serif;
     --h3-color: #333;
 }
 body {

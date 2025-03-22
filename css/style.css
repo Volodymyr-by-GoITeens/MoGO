@@ -28,7 +28,7 @@ p, input, h2 + p{
     color: #B6B6B6;
 }
 h2, h3, section > p:nth-child(-n+2){
-    color: #333333;
+    color: var(--h3-color);
 }
 p a {
     color: #F38181;

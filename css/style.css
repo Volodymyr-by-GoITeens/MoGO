@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --brand-color: #95E1D3;
-    --p-color: #B6B6B6;
-    --button-color: white;
-    --h2-color: #333;
-    --a-color: #F38181;
+    --text-color: #B6B6B6;
+    --button-text-color: white;
+    --title-color: #333;
+    --link-color: #F38181;
     --main-font: "Montserrat", serif;
-    --p-font: "Roboto", serif;
-    --post_title-font: "Kaushan Script", serif;
-    --h3-color: #333;
+    --text-font: "Roboto", serif;
+    --post-title-font: "Kaushan Script", serif;
 }
 body {
     font-family: var(--main-style);

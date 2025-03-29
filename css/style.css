@@ -2,7 +2,7 @@
 :root {
     --brand-color: #95E1D3;
     --text-color: #B6B6B6;
-    --button-text-color: white;
+    --button-color: white;
     --title-color: #333;
     --link-color: #F38181;
     --main-font: "Montserrat", serif;
@@ -11,68 +11,93 @@
 }
 body {
     font-family: var(--main-style);
-    width: 1600;
+    width: 1920px;
 }
-a.logo, nav ul li a {
+.header-logo, .header-link {
     color: var(--brand-color);
 }
-a.logo:hover, nav ul li a:hover {
-    color: var(--a-color);
+.header-logo:active, .header-link:active {
+    color: var(--link-color);
 }
-button {
+.services-desc, .team-post-text, .team-desc {
+    color: var(--text-color);
+}
+.services-subtitle, .services-title {
+    text-align: center;
+}
+.team-subtitle, .team-title, .team-post-text {
+    text-align: center;
+}
+.team-desc {
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-article {
+    width: 331.7798156738281;
+}
+.footer-button {
     background-color: var(--brand-color);
-    color: white;
+    color: var(--button-color);
 }
-p, input, h2 + p{
-    color: #B6B6B6;
+.footer-button:active {
+    background-color: var(--link-color);
 }
-h2, h3, section > p:nth-child(-n+2){
-    color: var(--h3-color);
+.footer-link {
+    color: var(--link-color);
 }
-p a {
-    color: #F38181;
+section div, .header-container, .footer-container {
+    width: 1200px;
+    margin: 0 360px;
+    align-items: center;
 }
-div.container {
-    width: 1170px:
-}
-p.subtitle, h2.title{
-    color: var(--h2-color);
+.subtitle, .title{
+    color: var(--title-color);
     text-align: center;
 }
 /*container*/
-div.container:nth-child(1) {
-    margin-top: 0;
+.header-container {
+    margin-top: 17px;
     margin-bottom: 68px;
 }
-div.container:nth-child(2) {
+.services-container {
     margin-top: 68px;
     margin-bottom: 100px;
 }
-div.container:nth-child(3) {
+.team-container {
     margin-top: 100px;
     margin-bottom: 80px;
 }
-div.container:nth-child(4) {
+.footer-container {
     margin-top: 80px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 /*flex-box*/
-header.header div.container {
+.header-container {
     display: flex;
     justify-content: space-around;
 }
 
-header.header div.container ul.menu{
+.header-menu{
     display: flex;
     justify-content: space-between;
     flex-direction: default;
+    gap: 55px;
 }
-main.main section.services div.container ul.service-list {
+.services-list {
     display: flex;
     flex-flow: row wrap;
 }
-main.main section.team div.container ul.team-list {
+.team-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }

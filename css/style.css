@@ -5,9 +5,10 @@
     --button-color: white;
     --title-color: #333;
     --link-color: #F38181;
+    --active-color: #f38181;
     --main-font: "Montserrat", serif;
     --text-font: "Roboto", serif;
-    --post-title-font: "Kaushan Script", serif;
+    --sub-title-font: "Kaushan Script", serif;
 }
 body {
     font-family: var(--main-style);

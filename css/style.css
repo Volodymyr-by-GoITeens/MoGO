@@ -15,14 +15,6 @@ body {
 }
 
 /*header*/
-.header-container {
-    width: 1200px;
-    margin: 17px 360px 68px;
-    padding: 0;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
 .header-logo {
     color: var(--brand-color);
 }
@@ -40,14 +32,6 @@ body {
 }
 
 /*services*/
-.services-container {
-    margin-top: 68px;
-    margin-bottom: 100px;
-    width: 1168px;
-    margin: 0 360px;
-    padding: 0;
-    align-items: center;
-}
 .services-subtitle {
     text-align: center;
 }
@@ -66,14 +50,6 @@ body {
 }
 
 /*team*/
-.team-container {
-    margin-top: 100px;
-    margin-bottom: 80px;
-    width: 1200px;
-    margin: 0 360px;
-    padding: 0;
-    align-items: center;
-}
 .team-subtitle {
     text-align: center;
 }
@@ -96,15 +72,6 @@ body {
 }
 
 /*footer*/
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 80px 360px 10px;
-    padding: 0;
-    align-items: center;
-}
 .footer-link {
     color: var(--link-color);
 }

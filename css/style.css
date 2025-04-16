@@ -15,15 +15,13 @@ body {
 }
 .container {
     width: 1200px;
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
 }
 
 /*header*/
 .header {
-    margin-top: 17px;
-    margin-bottom: 68px;
-    padding: 0 auto 12px;
+    padding: 0 0 12px;
 }
 .header-logo {
     color: var(--brand-color);
@@ -43,8 +41,6 @@ body {
 
 /*services*/
 .services {
-    margin-top: 68px;
-    margin-bottom: 100px;
     padding: 0;
 }
 .services-subtitle {
@@ -66,8 +62,6 @@ body {
 
 /*team*/
 .team {
-    margin-top: 100px;
-    margin-bottom: 80px;
     padding: 0;
 }
 .team-subtitle {
@@ -93,9 +87,7 @@ body {
 
 /*footer*/
 .footer {
-    margin-top: 80px;
-    margin-bottom: 10px;
-    padding: 10px auto 0px;
+    padding: 10px 0 0;
 }
 .footer-link {
     color: var(--link-color);

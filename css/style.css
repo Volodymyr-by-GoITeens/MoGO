@@ -21,7 +21,7 @@ body {
 
 /*header*/
 .header {
-    padding: 0 0 12px;
+    padding: 17px 0 12px;
 }
 .header-logo {
     color: var(--brand-color);
@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: default;
+    list-style: none;
     gap: 55px;
 }
 .header-link {
@@ -52,6 +53,7 @@ body {
 .services-list {
     display: flex;
     flex-flow: row wrap;
+    list-style: none;
 }
 .services-article {
     width: 331.7798156738281;
@@ -79,6 +81,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    list-style: none;
 }
 .team-desc {
     text-align: center;
@@ -87,7 +90,7 @@ body {
 
 /*footer*/
 .footer {
-    padding: 10px 0 0;
+    padding: 10px 0;
 }
 .footer-link {
     color: var(--link-color);

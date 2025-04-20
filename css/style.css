@@ -12,6 +12,7 @@
 }
 body {
     font-family: var(--main-style);
+    display: block;
 }
 .container {
     width: 1200px;
@@ -21,7 +22,12 @@ body {
 
 /*header*/
 .header {
-    padding: 17px 0 12px;
+    padding: 15px 0 13px;
+    margin: 17px auto 68px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
 }
 .header-logo {
     color: var(--brand-color);
@@ -43,6 +49,7 @@ body {
 /*services*/
 .services {
     padding: 0;
+    margin: 68px auto 100px;
 }
 .services-subtitle {
     text-align: center;
@@ -53,10 +60,10 @@ body {
 .services-list {
     display: flex;
     flex-flow: row wrap;
-    list-style: none;
+    gap: 69px;
 }
-.services-article {
-    width: 331.7798156738281;
+.services-item {
+    flex-basis: calc((100% - 138px) / 3);
 }
 .services-desc {
     color: var(--text-color);
@@ -65,6 +72,7 @@ body {
 /*team*/
 .team {
     padding: 0;
+    margin: 100px auto 80px;
 }
 .team-subtitle {
     text-align: center;
@@ -90,7 +98,12 @@ body {
 
 /*footer*/
 .footer {
-    padding: 10px 0;
+    padding: 23px 0 10px;
+    margin: 80px auto 10px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
 }
 .footer-link {
     color: var(--link-color);

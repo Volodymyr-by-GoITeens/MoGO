@@ -65,6 +65,13 @@ body {
 .services-item {
     flex-basis: calc((100% - 138px) / 3);
 }
+svg {
+    width: 37px;
+    height: 37px;
+}
+use {
+    fill: var(--brand-color);
+}
 .services-desc {
     color: var(--text-color);
 }

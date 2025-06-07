@@ -22,8 +22,7 @@ body {
 
 /*header*/
 .header {
-    padding: 15px 0 13px;
-    margin: 17px auto 68px;
+    padding: 32px 0 13px;
 }
 .header-container {
     display: flex;
@@ -48,8 +47,7 @@ body {
 
 /*services*/
 .services {
-    padding: 0;
-    margin: 68px auto 100px;
+    padding: 68px 0 100px;
 }
 .services-subtitle {
     text-align: center;
@@ -65,11 +63,11 @@ body {
 .services-item {
     flex-basis: calc((100% - 138px) / 3);
 }
-svg {
+.services-vector {
     width: 37px;
     height: 37px;
 }
-use {
+.services-symbol {
     fill: var(--brand-color);
 }
 .services-desc {
@@ -78,8 +76,7 @@ use {
 
 /*team*/
 .team {
-    padding: 0;
-    margin: 100px auto 80px;
+    padding-bottom: 80px;
 }
 .team-subtitle {
     text-align: center;
@@ -105,8 +102,7 @@ use {
 
 /*footer*/
 .footer {
-    padding: 23px 0 10px;
-    margin: 80px auto 10px;
+    padding: 10px 0 20px;
 }
 .footer-container {
     display: flex;

@@ -11,7 +11,7 @@
     --sub-title-font: "Kaushan Script", serif;
 }
 body {
-    font-family: var(--main-style);
+    font-family: var(--main-font);
     display: block;
 }
 .container {
@@ -27,14 +27,13 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-logo {
     color: var(--brand-color);
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
 }
 .header-list{
     display: flex;
@@ -46,10 +45,7 @@ body {
 .header-link {
     color: var(--brand-color);
     font-family: var(--main-font);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
     padding-bottom: 10px;
     text-align: end;
 }
@@ -71,10 +67,7 @@ body {
 .services-subtitle {
     color: var(--title-color);
     font-family: var(--sub-title-font);
-    font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
 }
 .services-title {
@@ -82,8 +75,6 @@ body {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
     margin: 20px auto 65px;
     font-variant: small-caps;
     text-align: center;
@@ -123,17 +114,13 @@ body {
 .services-headline {
     font-family: var(--main-font);
     color: var(--title-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
     margin-bottom: 20px;
     font-variant: small-caps;
 }
 .services-desc {
     color: var(--text-color);
     font-family: var(--text-font);
-    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0%;
@@ -146,10 +133,7 @@ body {
 .team-subtitle {
     font-family: var(--sub-title-font);
     color: var(--title-color);
-    font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
     margin-bottom: 17px;
     text-align: center;
 }
@@ -158,8 +142,6 @@ body {
     color: var(--title-color);
     font-weight: 700;
     font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
     margin-bottom: 45px;
     font-variant: small-caps;
     text-align: center;
@@ -174,10 +156,7 @@ body {
 .team-text {
     color: var(--text-color);
     font-family: var(--text-font);
-    font-weight: 400;
     font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 38px;
 }
@@ -214,19 +193,16 @@ body {
 .team-name {
     font-family: var(--main-font);
     color: var(--title-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
     padding-top: 30px;
     text-align: center;
     font-variant: small-caps;
 }
 .team-desc {
     color: var(--text-color);
-    font-family: var(--text-color);
+    font-family: var(--text-font);
     font-weight: 300;
     font-size: 15px;
-    line-height: 100%;
     padding-top: 11px;
     font-style: italic;
     text-align: center;
@@ -241,19 +217,19 @@ body {
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer-copyright {
     font-family: var(--main-font);
     color: var(--title-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    padding-top: 13px;
     text-align: center;
 }
 .footer-link {
     color: var(--link-color);
+}
+.footer-form {
+    display: flex;
 }
 .footer-email {
     border: 1px solid var(--text-color);
@@ -263,8 +239,8 @@ body {
     width: 210px;
     font-weight: 300;
     font-size: 14px;
-    line-height: 100%;
     font-style: italic;
+    border-right-width: 0;
 }
 .footer-button {
     background-color: var(--brand-color);
@@ -275,7 +251,6 @@ body {
     padding: 11px 38px 12px;
     width: 150px;
     height: 100%;
-    line-height: 100%;
     border: none;
     text-align: center;
     font-variant: small-caps;

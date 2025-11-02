@@ -15,8 +15,6 @@ body {
     display: block;
     font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
 }
 .container {
     width: 1200px;
@@ -26,7 +24,7 @@ body {
 
 /*header*/
 .header {
-    padding: 17px 0 23px;
+    padding: 17px 0 15px;
 }
 .header-container {
     display: flex;
@@ -47,13 +45,11 @@ body {
 }
 .header-link {
     color: var(--brand-color);
-    padding: 10px 1px;
-    border-bottom: 3px solid;
-    border-bottom-color: transparent;
+    padding: 15px 1px 12px;
 }
 .header-link:hover {
     color: var(--link-color);
-    border-bottom-color: var(--active-color);
+    border-bottom: 3px solid var(--active-color);
 }
 
 /*services*/
@@ -224,7 +220,7 @@ body {
     font-family: var(--text-font);
     padding: 12px 10px 11px;
     border-radius: 0;
-    width: 210px;
+    width: 230px;
     font-weight: 300;
     font-style: italic;
     border-right-width: 0;
@@ -232,7 +228,9 @@ body {
 .footer-button {
     background-color: var(--brand-color);
     color: var(--button-color);
+    font-family: var(--main-font);
     font-weight: 700;
+    font-size: 14px;
     padding: 11px 38px 12px;
     width: 150px;
     height: 100%;

@@ -45,10 +45,10 @@ body {
 }
 .header-link {
     color: var(--brand-color);
-    padding: 15px 1px 12px;
 }
 .header-link:hover {
     color: var(--link-color);
+    padding-bottom: 10px;
     border-bottom: 3px solid var(--active-color);
 }
 
@@ -145,7 +145,7 @@ body {
     font-family: var(--text-font);
     font-size: 15px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 27px;
 }
 .team-list {
     display: flex;
@@ -219,6 +219,7 @@ body {
     border: 1px solid var(--text-color);
     font-family: var(--text-font);
     padding: 12px 10px 11px;
+    font-size: 14px;
     border-radius: 0;
     width: 230px;
     font-weight: 300;
